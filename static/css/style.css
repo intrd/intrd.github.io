@@ -98,5 +98,5 @@ article a,article :not(pre)>code{overflow-wrap:anywhere;word-break:break-word}
 code{background:var(--code);padding:0 4px;border-radius:3px}pre code{padding:0;background:none}
 .posts{list-style:none;padding:0;margin:4px 0 16px}.posts li{padding:4px 0}
 .posts time,.meta{color:var(--mut);font-size:.9em;margin-right:8px}
-@media (max-width:600px){.posts{font:.78rem/1.45 ui-monospace,SFMono-Regular,Menlo,monospace}.posts li{padding:5px 0}.posts time{display:block;font-size:.88em;margin:0 0 1px}}
+@media (max-width:600px){.posts{font:.85rem/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;padding:0 10px}.posts li{padding:6px 0}.posts time{display:block;font-size:.88em;margin:0 0 1px}}
 .tag{font-size:.85em;margin-left:6px}
