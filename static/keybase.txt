@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/intrd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dann.com.br
+  * I am intrd (https://keybase.io/intrd) on keybase.
+  * I have a public key with fingerprint C2BE 4116 DD3B D236 54AC  75E5 32E1 7580 3ABE 5810
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ab7f32912a7bdc3da7bfb2b74fcf8c06a3897eb720ff1104d921aa5e4c4611900a",
+      "fingerprint": "c2be4116dd3bd23654ac75e532e175803abe5810",
+      "host": "keybase.io",
+      "key_id": "32e175803abe5810",
+      "kid": "0101ab7f32912a7bdc3da7bfb2b74fcf8c06a3897eb720ff1104d921aa5e4c4611900a",
+      "uid": "f670ce57bc4f54b6b79fd377aa7bc119",
+      "username": "intrd"
+    },
+    "service": {
+      "hostname": "dann.com.br",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1793725676,
+  "expire_in": 157680000,
+  "prev": "bc3bb1fc973b3039158d1998cbab26fa8d9dad799fa55bdc96028bdd33006672",
+  "seqno": 62,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtIFUEUvpaGXexdRg8pV6SCi83sa3avFVSXgugFpaVll5mdWd3M3dve1RLR
+THq/IehFPyp7GEmGYASFkj3AgiAlqKCH0gMDM1AoNKlZqX/9bP4c5pzv++Y7Z86J
+MSMDwQSxs7Q63LxxfMLTbhLY+mVyf4VAHFouhCuEYjYc2DbK4l602KJCWAAQQEyQ
+KYk6FDEi1JAoDyYRCZJNw9QMoGJJ0xEjSASmCSGQqS5CjBUmG7IKoQ4AFkKCadmF
+zI25lu1xWUMkTIZQpVQiVJRURcYGUpgiiQwiRQMSJkzRIODEIifuM7g5guMsy3J4
+jl+iw/b+gf/PvkuH5UwVAYMpiBiyqchEJUg3qYQQ5poGx/rAOHNtXMI4mvfoUqEy
+JPBUmWUwf6p+G3/KFNt2luGUZBGX82Ku4zmGs40XijwvFg/7RK885iN3MBL9oxEl
+lk35DDmjjLlxy7GFMORIw7N8UYh0CYmKitSQwHbGLJdFLR+hIFUD/PjvsDIuSQyJ
+EGgaOpJyiAQkHSoahbquGQQTUTWxRnWKKdJ1EysKn5uuAlEj/KMkAFQViYLf1nbb
+EcKqyI3iQi4atwpt7JW6TKgMHkyQEgMJwUBaanpia/Pi1DfZ7er6+tKPfxcvaYS/
+dYHg6PF/M4cSkwP7VkeG7uRl5D+ridecqNhTfznv56imoVX7Iqcvfkj5qE988rC7
+qC2zsia9KiUjqc27Ik56cflwb+ucz+Txz9zcoukZtR1vcxbNzUwsT9s0redi6zzU
+sqSu48KFfjDQh1MORjKrFg7Cl1uqjq/PH6hYeS39qDu65eSy9s3fOl+tG6OtmZ/y
+PtJ1Q1s+M7Rgwuz6+w9fzru5JtI449CBpaT5XNqH6Suaih915XXHLp2ftUgueDX5
+y9CRjtqGKbjtav693uugPdC/ePftvUcevVvWW3dqw6Uze5zGp9U/vkaCZ5sOVw1O
+PaZ+L3j9qbOz9kHD/r7sXXdDjbeTKxeO7Vn7a1zr84bUrlvzfwM=
+=rLLD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/intrd
+
+==================================================================
