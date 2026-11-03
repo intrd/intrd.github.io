@@ -4,6 +4,10 @@
     <li><a class="nav-home" href="{{ site.Home.RelPermalink }}" aria-label="Home" title="home"{{ if eq site.Home.RelPermalink $cur }} aria-current="page"{{ end }}>
       <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg>
     </a></li>
+    {{- range site.Params.nav }}
+    {{- $href := cond (hasPrefix .url "http") .url (cond (eq .url "/") site.Home.RelPermalink (.url | relURL)) }}
+    <li><a href="{{ $href }}"{{ if eq $href $cur }} aria-current="page"{{ end }}>{{ .name }}</a></li>
+    {{- end }}
     <li>
       <details class="tagmenu">
         <summary>/tags</summary>
@@ -13,10 +17,6 @@
         </div>
       </details>
     </li>
-    {{- range site.Params.nav }}
-    {{- $href := cond (hasPrefix .url "http") .url (cond (eq .url "/") site.Home.RelPermalink (.url | relURL)) }}
-    <li><a href="{{ $href }}"{{ if eq $href $cur }} aria-current="page"{{ end }}>{{ .name }}</a></li>
-    {{- end }}
   </ul>
   {{- $u := urls.Parse site.BaseURL }}
   <form class="search" role="search" action="https://duckduckgo.com/" method="get" data-index="{{ "index.json" | relURL }}">
