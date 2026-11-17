@@ -1,5 +1,5 @@
-:root{--bg:#fff;--fg:#222;--mut:#666;--link:#0b5fff;--code:#f4f4f4;--accent:#1a7f37}
-@media (prefers-color-scheme:dark){:root{--card:#000;--bg:#000;--fg:#ddd;--mut:#999;--link:#6ea1ff;--code:#161616;--accent:#7CFC9A}}
+:root{color-scheme:dark;--card:#000;--bg:#000;--fg:#ddd;--mut:#999;--link:#6ea1ff;--code:#161616;--accent:#7CFC9A}
+html{background:#000}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
 a{color:var(--link)}
 .banner{position:relative;display:flex;align-items:flex-end;box-sizing:border-box;width:calc(100% - 32px);max-width:60rem;aspect-ratio:3/1;margin:16px auto 0;padding:16px;border-radius:6px;overflow:hidden;background:#222 center/cover no-repeat}
